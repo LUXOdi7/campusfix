@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/home_24px"
+            android:title="Inicio"/>
+        <item
+            android:id="@+id/nav_ambientes"
+            android:icon="@drawable/school_24px"
+            android:title="Ambientes"/>
+        <item
+            android:id="@+id/nav_tipos_incidencia"
+            android:icon="@drawable/emergency_24px"
+            android:title="Tipos de incidencia"/>
+        <item
+            android:id="@+id/nav_registrar_incidencia"
+            android:icon="@drawable/siren_check_24px"
+            android:title="Registrar Incidencia"/>
+        <item
+            android:id="@+id/nav_informes_erroneos"
+            android:icon="@drawable/inbox_text_asterisk_24px"
+            android:title="Informes Erróneos"/>
+        <item
+            android:id="@+id/nav_cambiar_estado"
+            android:icon="@drawable/change_circle_24px"
+            android:title="Cambiar estado"/>
+        <item
+            android:id="@+id/nav_acerca_de"
+            android:icon="@drawable/info_24px"
+            android:title="Acerca de"/>
+    </group>
+</menu>

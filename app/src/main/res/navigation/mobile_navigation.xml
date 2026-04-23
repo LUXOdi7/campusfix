@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.campusfix.InicioFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/nav_ambientes"
+        android:name="com.example.campusfix.AmbientesFragment"
+        android:label="Ambientes"
+        tools:layout="@layout/fragment_ambientes" />
+    <fragment
+        android:id="@+id/nav_tipos_incidencia"
+        android:name="com.example.campusfix.TipoDeIncidenciaFragment"
+        android:label="Tipos_de_incidencia"
+        tools:layout="@layout/fragment_tipos_de_incidencia" />
+    <fragment
+        android:id="@+id/nav_registrar_incidencia"
+        android:name="com.example.campusfix.RegistrarIncidenciaFragment"
+        android:label="Registrar_incidencia"
+        tools:layout="@layout/fragment_registrar_incidencia" />
+    <fragment
+        android:id="@+id/nav_informes_erroneos"
+        android:name="com.example.campusfix.InformesErroneosFragment"
+        android:label="Informes_erroneos"
+        tools:layout="@layout/fragment_informes_erroneos" />
+    <fragment
+        android:id="@+id/nav_cambiar_estado"
+        android:name="com.example.campusfix.CambiarEstadoFragment"
+        android:label="Cambiar_estado"
+        tools:layout="@layout/fragment_cambiar_estado" />
+    <fragment
+        android:id="@+id/nav_acerca_de"
+        android:name="com.example.campusfix.AcercaDeFragment"
+        android:label="Acerca_de"
+        tools:layout="@layout/fragment_acerca_de" />
+</navigation>
